@@ -1,0 +1,400 @@
+<?xml version="1.0" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="johnOrPaulDiscography.xsl" ?>
+
+<albums>
+    <album>
+    <album_title>Abbey Road</album_title>
+    <album_art></album_art>
+        <song>
+            <title>Come Together</title>
+            <vocalist></vocalist>
+        </song>
+        <song>
+            <title>Something</title>
+            <vocalist></vocalist>
+        </song>
+        <song>
+            <title>Maxwell's Silver Hammer</title>
+            <vocalist></vocalist>
+        </song>
+        <song>
+            <title>Oh! Darling</title>
+            <vocalist></vocalist>
+        </song>
+        <song>
+            <title>Octopus's Garden</title>
+            <vocalist></vocalist>
+        </song>
+        <song>
+            <title>I Want You (She's So Heavy)</title>
+            <vocalist></vocalist>
+        </song>
+        <song>
+            <title>Here Comes the Sun</title>
+            <vocalist></vocalist>
+        </song>
+        <song>
+            <title>Because</title>
+            <vocalist></vocalist>
+        </song>
+        <song>
+            <title>You Never Give Me Your Money</title>
+            <vocalist></vocalist>
+        </song>
+        <song>
+            <title>Sun King</title>
+            <vocalist></vocalist>
+        </song>
+        <song>
+            <title>Mean Mr. Mustard</title>
+            <vocalist></vocalist>
+        </song>
+        <song>
+            <title>Polythene Pam</title>
+            <vocalist></vocalist>
+        </song>
+        <song>
+            <title>She Came in Through the Bathroom Window</title>
+            <vocalist></vocalist>
+        </song>
+        <song>
+            <title>Golden Slumbers</title>
+            <vocalist></vocalist>
+        </song>
+        <song>
+            <title>Carry That Weight</title>
+            <vocalist></vocalist>
+        </song>
+        <song>
+            <title>The End</title>
+            <vocalist></vocalist>
+        </song>
+    </album>
+    <album>
+        <album_title>HELP!</album_title>
+        <album_art></album_art>
+        <song>
+            <title></title>
+            <vocalist></vocalist>
+        </song>
+        <song>
+            <title></title>
+            <vocalist></vocalist>
+        </song>
+        <song>
+            <title></title>
+            <vocalist></vocalist>
+        </song>
+    </album>
+    <album>
+        <album_title>The Magical Mystery Tour</album_title>
+        <album_art></album_art>
+        <song>
+            <title>Magical Mystery Tour</title>
+            <vocalist></vocalist>
+        </song>
+        <song>
+            <title>The Fool on the Hill</title>
+            <vocalist></vocalist>
+        </song>
+        <song>
+            <title>Flying</title>
+            <vocalist></vocalist>
+        </song>
+        <song>
+            <title>Blue Jay Way</title>
+            <vocalist></vocalist>
+        </song>
+        <song>
+            <title>Your Mother Should Know</title>
+            <vocalist></vocalist>
+        </song>
+        <song>
+            <title>I Am the Walrus</title>
+            <vocalist></vocalist>
+        </song>
+        <song>
+            <title>Hello Goodbye</title>
+            <vocalist></vocalist>
+        </song>
+        <song>
+            <title>Strawberry Fields Forever</title>
+            <vocalist></vocalist>
+        </song>
+        <song>
+            <title>Penny Lane</title>
+            <vocalist></vocalist>
+        </song>
+        <song>
+            <title>Baby You're a Rich Man</title>
+            <vocalist></vocalist>
+        </song>
+        <song>
+            <title>All You Need Is Love</title>
+            <vocalist></vocalist>
+        </song>
+    </album>
+    <album>
+        <album_title>Revolver</album_title>
+        <album_art></album_art>
+        <song>
+            <title>Taxman</title>
+            <vocalist>George Harrison</vocalist>
+        </song>
+        <song>
+            <title>Eleanor Rigby</title>
+            <vocalist>Paul McCartney</vocalist>
+        </song>
+        <song>
+            <title>Love You To</title>
+            <vocalist>George Harrison</vocalist>
+        </song>
+        <song>
+            <title>Here, There and Everywhere</title>
+            <vocalist>Paul McCartney</vocalist>
+        </song>
+        <song>
+            <title>Yellow Submarine</title>
+            <vocalist>Ringo Starr</vocalist>
+        </song>
+        <song>
+            <title>She Said She Said</title>
+            <vocalist>John Lennon</vocalist>
+        </song>
+        <song>
+            <title>Good Day Sunshine</title>
+            <vocalist>Paul McCartney</vocalist>
+        </song>
+        <song>
+            <title>For No One</title>
+            <vocalist>Paul McCartney</vocalist>
+        </song>
+        <song>
+            <title>I Want To Tell You</title>
+            <vocalist>George Harrison</vocalist>
+        </song>
+        <song>
+            <title>Got To Get You Into My Life</title>
+            <vocalist>Paul McCartney</vocalist>
+        </song>
+        <song>
+            <title>Tomorrow Never Knows</title>
+            <vocalist>John Lennon</vocalist>
+        </song>
+
+    </album>
+    <album>
+        <album_title>Rubber Soul</album_title>
+        <album_art></album_art>
+        <song>
+            <title></title>
+            <vocalist></vocalist>
+        </song>
+        <song>
+            <title></title>
+            <vocalist></vocalist>
+        </song>
+        <song>
+            <title></title>
+            <vocalist></vocalist>
+        </song>
+    </album>
+    <album>
+        <album_title>Sgt. Pepper's Lonely Hearts Club Band</album_title>
+        <album_art></album_art>
+        <song>
+            <title>Sgt. Pepper's Lonely Hearts Club Band</title>
+            <vocalist></vocalist>
+        </song>
+        <song>
+            <title>A Little Help From My Friends</title>
+            <vocalist></vocalist>
+        </song>
+        <song>
+            <title>Lucy in the Sky with Diamonds</title>
+            <vocalist></vocalist>
+        </song>
+        <song>
+            <title>Getting Better</title>
+            <vocalist></vocalist>
+        </song>
+        <song>
+            <title>Fixing A Hole</title>
+            <vocalist></vocalist>
+        </song>
+        <song>
+            <title>She's Leaving Home</title>
+            <vocalist></vocalist>
+        </song>
+        <song>
+            <title>Being for the Benefit of Mr. Kite!</title>
+            <vocalist></vocalist>
+        </song>
+        <song>
+            <title>Within You Without You</title>
+            <vocalist></vocalist>
+        </song>
+        <song>
+            <title>When I'm 64</title>
+            <vocalist></vocalist>
+        </song>
+        <song>
+            <title>Lovely Rita</title>
+            <vocalist></vocalist>
+        </song>
+        <song>
+            <title>Good Morning, Good Morning</title>
+            <vocalist></vocalist>
+        </song>
+        <song>
+            <title>Sgt. Pepper's Lonely Hearts Club Band (Reprise)</title>
+            <vocalist></vocalist>
+        </song>
+        <song>
+            <title>A Day in the Life</title>
+            <vocalist></vocalist>
+        </song>
+    </album>
+    <album>
+        <album_title>The Beatles 'The White Album'</album_title>
+        <album_art></album_art>
+        <song>
+            <title>Back in the U.S.S.R.</title>
+            <vocalist></vocalist>
+        </song>
+        <song>
+            <title>Dear Prudence</title>
+            <vocalist></vocalist>
+        </song>
+        <song>
+            <title>Glass Onion</title>
+            <vocalist></vocalist>
+        </song>
+        <song>
+            <title>Ob-La-Di, Ob-La-Da</title>
+            <vocalist></vocalist>
+        </song>
+        <song>
+            <title>Wild Honey Pie</title>
+            <vocalist></vocalist>
+        </song>
+        <song>
+            <title>The Continuing Story of Bungalow Bill</title>
+            <vocalist></vocalist>
+        </song>
+        <song>
+            <title>While My Guitar Gently Weeps</title>
+            <vocalist></vocalist>
+        </song>
+        <song>
+            <title>Happiness is a Warm Gun</title>
+            <vocalist></vocalist>
+        </song>
+        <song>
+            <title>Martha My Dear</title>
+            <vocalist></vocalist>
+        </song>
+        <song>
+            <title>I'm So Tired</title>
+            <vocalist></vocalist>
+        </song>
+        <song>
+            <title>Blackbird</title>
+            <vocalist></vocalist>
+        </song>
+        <song>
+            <title>Piggies</title>
+            <vocalist></vocalist>
+        </song>
+        <song>
+            <title>Rocky Raccoon</title>
+            <vocalist></vocalist>
+        </song>
+        <song>
+            <title>Don't Pass Me By</title>
+            <vocalist></vocalist>
+        </song>
+        <song>
+            <title>Why Don't We Do It In The Road?</title>
+            <vocalist></vocalist>
+        </song>
+        <song>
+            <title>I Will</title>
+            <vocalist></vocalist>
+        </song>
+        <song>
+            <title>Julia</title>
+            <vocalist></vocalist>
+        </song>
+        <song>
+            <title>Birthday</title>
+            <vocalist></vocalist>
+        </song>
+        <song>
+            <title>Yer Blues</title>
+            <vocalist></vocalist>
+        </song>
+        <song>
+            <title>Mother Nature's Son</title>
+            <vocalist></vocalist>
+        </song>
+        <song>
+            <title>Everybody's Got Something to Hide Except for Me and
+                My Monkey
+            </title>
+            <vocalist></vocalist>
+        </song>
+        <song>
+            <title>Sexy Sadie</title>
+            <vocalist></vocalist>
+        </song>
+        <song>
+            <title>Helter Skelter</title>
+            <vocalist></vocalist>
+        </song>
+        <song>
+            <title>Long, Long, Long</title>
+            <vocalist></vocalist>
+        </song>
+        <song>
+            <title>Revolution 1</title>
+            <vocalist></vocalist>
+        </song>
+        <song>
+            <title>Honey Pie</title>
+            <vocalist></vocalist>
+        </song>
+        <song>
+            <title>Savoy Truffle</title>
+            <vocalist></vocalist>
+        </song>
+        <song>
+            <title>Cry Baby Cry</title>
+            <vocalist></vocalist>
+        </song>
+        <song>
+            <title>Revolution 9</title>
+            <vocalist></vocalist>
+        </song>
+        <song>
+            <title>Good Night</title>
+            <vocalist></vocalist>
+        </song>
+    </album>
+    <album>
+        <album_title>Yellow Submarine</album_title>
+        <album_art></album_art>
+        <song>
+            <title></title>
+            <vocalist></vocalist>
+        </song>
+        <song>
+            <title></title>
+            <vocalist></vocalist>
+        </song>
+        <song>
+            <title></title>
+            <vocalist></vocalist>
+        </song>
+    </album>
+</albums>

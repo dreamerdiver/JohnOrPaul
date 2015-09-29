@@ -1,0 +1,55 @@
+/* Morse Code Page Stylesheet
+
+   Mitch Gundrum 11/04/13 */
+
+body{
+    background-color: goldenrod;
+}
+
+h1{
+    background-color: grey;
+    color: black;
+    border: 2px solid grey;
+    border-radius: 3px;
+    text-align: center;
+    font-family: Arial, serif;
+    box-shadow: -4px 3px 4px white;
+    width: 50%;
+    margin-right: 25%;
+    margin-left: 25%;
+}
+
+#outputDiv{
+    /*background-color: black;*/
+    font-family: Garamond, sans-serif;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    padding: 20px;
+    height: 60%;
+}
+
+#userInput{
+    background-color: #333333;
+    border: 8px outset grey;
+    border-radius: 6px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    font-size: 18px;
+}
+
+#userString{
+    width: 250px;
+}
+
+#footer{
+    text-align: center;
+    font-family: Monotype Corsiva, serif;
+    color: #444444
+}
+
+h2 {
+    color: dimgrey;
+}

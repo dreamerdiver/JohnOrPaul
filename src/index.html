@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Morse Code</title>
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="JohnOrPaul.js"></script>
+</head>
+<body>
+<header>
+    <h1></h1>
+</header>
+
+<section id="userInput" >
+    <form id="userInputForm" action="index.html">
+        <label for="userString">Enter Beatles Title: </label>
+            <input type="text" id="userString" name="inputString"/>
+            <input type="submit" id="searchJohnOrPaul" value="bang bang"/>
+    </form>
+</section>
+
+<div id="outputDiv"></div>
+
+<footer id="footer" >
+    <p>Created by: Mitch Gundrum</p>
+    <script>
+        init();
+        var revisedDate = document.lastModified;
+        document.write("Web page was last revised: " + revisedDate);
+    </script>
+</footer>
+</body>
+</html>
