@@ -2,47 +2,45 @@
  * Created by Meesh on 9/24/15.
  */
 
+
 function init(){
-    var button = document.getElementById("searchJohnOrPaul");
-    button.onclick = searchJohnOrPaul();
+    var button = document.getElementById("runQuery");
+        button.onclick = searchJohnOrPaul;
 }
 
 function searchJohnOrPaul() {
-    var letterTrans = {
-        'Song Title': ['ALbum/Main Vocalist'],
-        'Sgt Peppers Lonely Hearts Club Band': ['Album: Sgt peppers Lonely Hearts Club Band'
-                                                + 'Vocalist: '],
-        'A Little Help From My Friends': ['Album: Sgt peppers Lonely Hearts Club Band'
-                                          + 'Vocalist: '],
-        'Lucy in the Sky With Diamonds': ['Album: Sgt peppers Lonely Hearts' +
-        ' Club Band'
-        + 'Vocalist: '],
-        'Sgt Peppers Lonely Hearts Club Band': ['Album: Sgt peppers Lonely Hearts Club Band'
-        + 'Vocalist: '],
-        'Sgt Peppers Lonely Hearts Club Band': ['Album: Sgt peppers Lonely Hearts Club Band'
-        + 'Vocalist: '],
-        'Sgt Peppers Lonely Hearts Club Band': ['Album: Sgt peppers Lonely Hearts Club Band'
-        + 'Vocalist: '],
-        'Sgt Peppers Lonely Hearts Club Band': ['Album: Sgt peppers Lonely Hearts Club Band'
-        + 'Vocalist: '],
-        'Sgt Peppers Lonely Hearts Club Band': ['Album: Sgt peppers Lonely Hearts Club Band'
-        + 'Vocalist: '],
-        'Sgt Peppers Lonely Hearts Club Band': ['Album: Sgt peppers Lonely Hearts Club Band'
-        + 'Vocalist: '],
-    };
-
-    //Prompt User for String
     var output = document.getElementById("outputDiv");
-    var form = document.getElementById("userInputForm");
-    var stringTrans = form.inputString.value;
-        stringTrans = stringTrans.toUpperCase();
+    var userInput = document.getElementById("userString");
+    var userString = userInput.value;
+    var searchType = document.getElementById("singPlayDropdown");
+        switch (searchType.value) {
+            case "wrote" :
+                searchBySongWriter(userString, output);
+                break;
+            case "sang" :
+                searchByVocalist(userString, output);
+                break;
+        }
+    output.innerHTML = "Song: " + userString + "<br />";
+}
 
-    output.innerHTML = stringTrans + "<br />";
-    for ( var index = 0; index < stringTrans.length; index++ ){
-        output.innerHTML += (letterTrans[stringTrans.charAt(index)] + " " );
-    }
+function searchBySongWriter(input, output) {
+    var songs = JSON.parse(songs);
+        for (var song in songs) {
+            if (input == song.title) {
+                output.innerHTML += "Written By: " + song.writer;
+            }
+        }
     return false;
 }
 
-
+function searchByVocalist(input, output) {
+    var songs = JSON.parse(songs);
+        for (var song in songs) {
+            if (input == song.vocalist) {
+                output.innerHTML += "Main Vocalist: " + song.vocalist;
+            }
+        }
+    return false;
+}
 
