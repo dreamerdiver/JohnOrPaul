@@ -13,17 +13,16 @@ function init(){
 function searchJohnOrPaul(e) {
     e.preventDefault();
     var output = document.getElementById("outputDiv");
-    var userInput = document.getElementById("userString");
-    var userString = userInput.value;
-    var searchType = document.getElementById("singPlayDropdown");
-    output.innerHTML = "Song: " + userString + "<br />";
-
-    switch (searchType.value) {
+    var userString = document.getElementById("userString").value;
+    var inputREF = userString.toUpperCase();
+    var searchType = document.getElementById("singPlayDropdown").value;
+    var userInputForm = document.getElementById("userInputForm");
+    switch (searchType) {
         case "wrote" :
-            searchBySongWriter(userString, output);
+            searchBySongWriter(inputREF, output);
             break;
         case "sang" :
-            searchByVocalist(userString, output);
+            searchByVocalist(inputREF, output);
             break;
     }
 }
@@ -32,7 +31,8 @@ function searchBySongWriter(input, output) {
     for (var i in songs) {
         var song = songs[i];
         if (input == song.title) {
-            output.innerHTML += "Written By: " + song.writer;
+            output.innerHTML = "Song: " + input + "<br />";
+            output.innerHTML += "Written By: " + song.writer + "<br />";
         }
     }
     return false;
@@ -42,7 +42,8 @@ function searchByVocalist(input, output) {
     for (var i in songs) {
         var song = songs[i];
         if (input == song.title) {
-            output.innerHTML += "Main Vocalist: " + song.vocalist;
+            output.innerHTML = "Song: " + input + "<br />";
+            output.innerHTML += "Main Vocalist: " + song.vocalist + "<br />";
         }
     }
     return false;

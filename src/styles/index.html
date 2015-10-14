@@ -1,0 +1,39 @@
+<html>
+    <head>
+        <title>John or Paul?</title>
+        <link href="styles.css" rel="stylesheet" type="text/css"/>
+        <script type="text/javascript" src="../JohnOrPaul.js"></script>
+        <script type="text/javascript" src="../getTrackList.js"></script>
+    </head>
+    <body>
+        <section id="ui">
+            <header id="header">
+                <h1>'John Or Paul?'</h1>
+                <h2>Beatles Track Analyzer</h2>
+            </header>
+            <form id="userInputForm" action="index.html#" autocomplete="off">
+                <label for="singPlayDropdown">Which of the Beatles </label>
+                <select id="singPlayDropdown">
+                    <option disabled="disabled" value="" selected="selected"></option>
+                    <option value="sang">sang</option>
+                    <option value="wrote">wrote</option>
+                </select>
+                <label for="userString"> the song </label>
+                <input type="text" id="userString" name="userString" />
+                <input type="submit" id="runQuery" name="submitButton" value="?"/>
+            </form>
+        </section>
+    <div id="outputDiv"></div>
+        <footer id="footer" >
+            <p>Mitch Gundrum 2015</p>
+            <script>
+                init();
+                var revisedDate = document.lastModified;
+                document.write("Web page was last revised: " + revisedDate);
+            </script>
+        </footer>
+    </body>
+</html>
+
+
+

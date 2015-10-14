@@ -1,0 +1,54 @@
+/**
+    * Project: John or Paul?
+    * Class: styles.css
+    * Created by Meesh
+    * 9/24/15
+    */
+/*
+@font-face {
+    font-family: OldStyleSC;
+    src: url("OldStyleSmallCaps.ttf") format("truetype");
+}
+*/
+
+body{
+    background-color: powderblue;
+    font-family: Garamond, sans-serif;
+}
+
+h1{
+    margin: 2%;
+    text-align: center;
+    color: azure;
+}
+
+#ui{
+    background-color: gainsboro;
+    border: 6px transparent ;
+    border-radius:130px;
+    color: cadetblue;
+    text-align: center;
+    padding: 2% 5% 3%;
+    margin: 70px 280px 10px;
+    font-family: Garamond, sans-serif;
+    font-size: 26px;
+}
+
+#outputDiv{
+    padding: 20px;
+    height: 30%;
+    font-family: Garamond, sans-serif;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+
+#footer{
+    text-align: center;
+    font-family: Monotype Corsiva, serif;
+    color: #444444
+}
+
+h2 {
+    color: dimgrey;
+}
